@@ -15,7 +15,7 @@
     "ci-package": "vsce package"
   },
   "devDependencies": {
-    "vsce": "^2.13.0"
+    "vsce": "2.13.0"
   },
   "extensionPack": [
     "ms-azuretools.vscode-apimanagement",
