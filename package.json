@@ -5,7 +5,7 @@
   "description": "Extension pack for serverless development on Azure.",
   "version": "0.1.1",
   "engines": {
-    "vscode": "^1.42.0"
+    "vscode": "1.42.0"
   },
   "galleryBanner": {
     "color": "#3c3c3c",
@@ -38,6 +38,6 @@
     "ci-package": "vsce package"
   },
   "devDependencies": {
-    "vsce": "^2.13.0"
+    "vsce": "2.13.0"
   }
 }
