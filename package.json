@@ -1,32 +1,18 @@
 {
-	"name": "vscode-azureserverlesspack",
-	"displayName": "Azure Serverless",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Extension pack for serverless development on Azure.",
-	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"author": {
+		"email": "Hello@Playform.Cloud",
+		"name": "Playform",
+		"url": "https://playform.cloud"
+	},
 	"bugs": {
 		"url": "https://github.com/CodeEditorLand/Foundation/issues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Playform",
-		"email": "Hello@Playform.Cloud",
-		"url": "https://playform.cloud"
-	},
-	"type": "module",
-	"scripts": {
-		"ci-package": "vsce package",
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
-	},
+	"description": "Extension pack for serverless development on Azure.",
 	"devDependencies": {
-		"typescript-esbuild": "0.4.5",
+		"typescript-esbuild": "",
 		"vsce": "2.13.0"
 	},
+	"displayName": "Azure Serverless",
 	"extensionPack": [
 		"ms-azuretools.vscode-apimanagement",
 		"ms-azuretools.vscode-azureeventgrid",
@@ -34,12 +20,26 @@
 		"ms-azuretools.vscode-cosmosdb",
 		"ms-azuretools.vscode-logicapps"
 	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"icon": "resources/serverless-platform.png",
 	"galleryBanner": {
 		"color": "#3c3c3c",
 		"theme": "dark"
-	}
+	},
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"icon": "resources/serverless-platform.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"name": "vscode-azureserverlesspack",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"scripts": {
+		"ci-package": "vsce package",
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
