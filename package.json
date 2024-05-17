@@ -1,35 +1,14 @@
 {
 	"name": "vscode-azureserverlesspack",
 	"displayName": "Azure Serverless",
-	"version": "0.0.1",
-	"private": false,
 	"description": "Extension pack for serverless development on Azure.",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureServerlessPack#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureServerlessPack/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandAzureServerlessPack.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🛬 Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"ci-package": "vsce package",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6"
+		"@playform/build": "0.0.7"
 	},
 	"extensionPack": [
 		"ms-azuretools.vscode-apimanagement",
@@ -38,9 +17,6 @@
 		"ms-azuretools.vscode-cosmosdb",
 		"ms-azuretools.vscode-logicapps"
 	],
-	"publishConfig": {
-		"access": "public"
-	},
 	"icon": "resources/serverless-platform.png",
 	"galleryBanner": {
 		"color": "#3c3c3c",
