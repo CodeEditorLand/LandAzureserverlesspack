@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"description": "Extension pack for serverless development on Azure.",
 	"devDependencies": {},
 	"displayName": "Azure Serverless",
@@ -17,5 +18,25 @@
 	"name": "vscode-azureserverlesspack",
 	"scripts": {
 		"ci-package": "vsce package"
+=======
+	"name": "vscode-azureserverlesspack",
+	"displayName": "Azure Serverless",
+	"description": "Extension pack for serverless development on Azure.",
+	"scripts": {
+		"ci-package": "vsce package"
+	},
+	"devDependencies": {},
+	"extensionPack": [
+		"ms-azuretools.vscode-apimanagement",
+		"ms-azuretools.vscode-azureeventgrid",
+		"ms-azuretools.vscode-azurefunctions",
+		"ms-azuretools.vscode-cosmosdb",
+		"ms-azuretools.vscode-logicapps"
+	],
+	"icon": "resources/serverless-platform.png",
+	"galleryBanner": {
+		"color": "#3c3c3c",
+		"theme": "dark"
+>>>>>>> a9aa4560a7f5bb8c9ef5ab39333a2dd344917beb
 	}
 }
