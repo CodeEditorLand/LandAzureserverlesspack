@@ -3,11 +3,11 @@
 	"devDependencies": {},
 	"displayName": "Azure Serverless",
 	"extensionPack": [
+		"ms-azuretools.vscode-apimanagement",
+		"ms-azuretools.vscode-azureeventgrid",
 		"ms-azuretools.vscode-azurefunctions",
 		"ms-azuretools.vscode-cosmosdb",
-		"ms-azuretools.vscode-azureeventgrid",
-		"ms-azuretools.vscode-logicapps",
-		"ms-azuretools.vscode-apimanagement"
+		"ms-azuretools.vscode-logicapps"
 	],
 	"galleryBanner": {
 		"color": "#3c3c3c",
